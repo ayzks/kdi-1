@@ -15,6 +15,7 @@ main {
   width: 960px;
   margin: 50px auto;
   display: flex;
+
 }
 
 .step-box {
@@ -70,18 +71,22 @@ footer {
 
 @media screen and (max-width: 768px) {
   main {
-    width: 100%;
+    width: 90%;
+    padding: 4%;
     display: block;
 }
 .step-box .img1 {
-  width: 100%;
+  width: 90%;
+  padding: 7%;
   margin: 0 auto;
 }
 .step-box .img2 {
-  width: 100%;
+  width: 90%;
+  padding: 7%;
   margin: 0 auto;
 }
  .step-box .img3 {
-   width: 100%;
+   width: 90%;
+   padding: 7%
    margin: 0 auto;
  }
