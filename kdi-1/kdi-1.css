@@ -71,22 +71,17 @@ footer {
 
 @media screen and (max-width: 768px) {
   main {
-    width: 90%;
-    padding: 4%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
     display: block;
 }
-.step-box .img1 {
-  width: 90%;
+.step-box {
+  width: 100%;
   padding: 7%;
-  margin: 0 auto;
+  margin-bottom: 20px;
 }
-.step-box .img2 {
-  width: 90%;
-  padding: 7%;
-  margin: 0 auto;
+.step-box:last-child {
+  margin-bottom: 0;
 }
- .step-box .img3 {
-   width: 90%;
-   padding: 7%
-   margin: 0 auto;
- }
+}
